@@ -1,0 +1,122 @@
+html,body{
+    padding-bottom: 70px;  
+    margin: 0px;
+    background-image: url('../../assets/images/round.png');     
+}
+
+/****** HEADER *******/
+
+#title_h1{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px; 
+    background-color: #4ba9a5;
+    color: #ffffff;
+    padding: 40px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+li{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px; 
+    display: inline;
+    border-right: 1px solid #dddddd; 
+    padding-left: 20px;   
+    padding-right: 20px; 
+    color: #777777;  
+}
+
+li:last-of-type{
+    border-right: none;
+    padding-right: 0px;
+}
+
+a:hover{
+    color: #777777;
+}
+
+/****** CONTENT *******/
+#subtitles{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 22px;
+    color: #4ba9a5; 
+    padding: 15px;
+    border-bottom: 3px solid #dddddd; 
+    margin: 15px;
+    font-weight: bold;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #999999;    
+    line-height: 2;
+}
+
+/****** FORM *******/
+label{
+    color: #666666;
+}
+
+#submit{
+    background-color: #4ba9a5;
+    color: #ffffff;
+    width: 112px;
+    height: 41px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+/****** PORTFOLIO CONTENT *******/
+.green_div{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4ba9a5;
+    padding: 0px;
+    position: absolute;
+    top: 60%;
+    bottom: 20%;
+    z-index: 1;
+    width: 90%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 21px;
+}
+
+#portfolio_image{
+    max-width: 100%;
+    /*width: 300px;*/
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/****** CONNECT WITH ME *******/
+#connect_image{
+    max-width: 7%;
+    width: 50px;
+    display: inline;
+    text-align: left;
+}
+
+
+
+/****** FOOTER *******/
+footer{
+    background-color: #666666;
+    border-top: 10px solid #4ba9a5;
+    padding: 30px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    color: #dfdfdf;
+    text-align: center;
+}
